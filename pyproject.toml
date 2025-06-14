@@ -25,6 +25,8 @@ dependencies = [
     "treelib>=1.2.5",
     "xarray>=2023.1.0",
     "zarr>=2.14.2",
+    "torch-cluster>=1.6.0",
+    "torch-scatter>=2.0.9",
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -69,7 +71,7 @@ makani = [
 
 fignet = [
     "jaxtyping>=0.2",
-    "torch_scatter>=2.1",
+    "torch-scatter>=2.1",
     "torchinfo>=1.8",
     "warp-lang>=1.0",
     "webdataset>=0.2",
