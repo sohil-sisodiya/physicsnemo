@@ -24,6 +24,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.0] - 2025-06-05
 
+### Dependencies
+- Added `torch-cluster` and `torch-scatter` to `pyproject.toml` under dependencies.
+
+[1.0.2] - 2025-06-14
+
 ### Added
 
 - Added ReGen score-based data assimilation example
@@ -390,3 +395,6 @@ weather models
 ### Added
 
 - Initial public release.
+
+
+
